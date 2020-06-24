@@ -1,0 +1,170 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif ;
+
+   
+}
+.border{
+    border: solid 1px black;
+    margin: 2px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 2px;
+    
+    
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 5px 5px;
+    padding: 2px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .25fr .25fr .25fr 3fr; 
+    padding: 2px;  
+}
+
+.danis-cube{
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 5px 5px 5px 5px;
+    padding: 2px;
+    text-align: center;
+}
+.pages {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 5px 5px 5px 5px;
+    padding: 2px;
+    text-align: center;
+
+   
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    border-radius: 15px 15px 15px 15px;
+    padding: 2px;
+    text-align: center;
+}
+
+.colors{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    border-radius: 15px 15px 15px 15px;
+    padding: 2px;
+    text-align: center;
+
+}
+
+.content .creature-47a li{
+    background: lightblue;
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.content .creature-47a li:hover {
+    background:rgb(12, 110, 143);
+    transform: scale(1.25) rotate3d(1, 1, 1, 0deg);
+}
+.content .creature-26 li{
+    background: lightblue;
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.content .creature-26 li:hover {
+    background:rgb(12, 110, 143);
+    transform: scale(1.25) rotate3d(1, 1, 1, 0deg);
+}
+
+.content .creature-44 li{
+    background: lightblue;
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.content .creature-44 li:hover {
+    background:rgb(12, 110, 143);
+    transform: scale(1.25) rotate3d(1, 1, 1, 0deg);
+}
+.content .creature-47 li{
+    background: lightblue;
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.content .creature-47 li:hover {
+    background:rgb(12, 110, 143);
+    transform: scale(1.25) rotate3d(1, 1, 1, 0deg);
+}
+.content .creature-48 li{
+    background: lightblue;
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.content .creature-48 li:hover {
+    background:rgb(12, 110, 143);
+    transform: scale(1.25) rotate3d(1, 1, 1, 0deg);
+}
+.content .creature-11 li{
+    background: lightblue;
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.content .creature-11 li:hover {
+    background:rgb(12, 110, 143);
+    transform: scale(1.25) rotate3d(1, 1, 1, 0deg);
+}
+.content .creature-11 .artifact-18 li{
+    background: lightblue;
+    margin: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.content .creature-11 .artifact-18 li:hover {
+    background:rgb(12, 110, 143);
+    transform: scale(1.25) rotate3d(1, 1, 1, 0deg);
+}             
